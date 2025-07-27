@@ -1,0 +1,510 @@
+{
+	"Divider": {
+		"prefix": "dv",
+		"body": [
+			"// ------------------------------------------------------------------------------------------"
+		],
+		"description": "Code divider line"
+	},
+	"res.status(100)": {
+		"prefix": "res100",
+		"body": [
+			"res.status(100).json({ success: false, message: 'Continue.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 100 Continue"
+	},
+	"res.status(101)": {
+		"prefix": "res101",
+		"body": [
+			"res.status(101).json({ success: false, message: 'Switching protocols.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 101 Switching Protocols"
+	},
+	"res.status(102)": {
+		"prefix": "res102",
+		"body": [
+			"res.status(102).json({ success: false, message: 'Processing.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 102 Processing"
+	},
+	"res.status(103)": {
+		"prefix": "res103",
+		"body": [
+			"res.status(103).json({ success: false, message: 'Early hints.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 103 Early Hints"
+	},
+	"res.status(200)": {
+		"prefix": "res200",
+		"body": [
+			"res.status(200).json({ success: true, message: 'OK.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 200 OK"
+	},
+	"res.status(201)": {
+		"prefix": "res201",
+		"body": [
+			"res.status(201).json({ success: true, message: 'Created.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 201 Created"
+	},
+	"res.status(202)": {
+		"prefix": "res202",
+		"body": [
+			"res.status(202).json({ success: true, message: 'Accepted.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 202 Accepted"
+	},
+	"res.status(203)": {
+		"prefix": "res203",
+		"body": [
+			"res.status(203).json({ success: true, message: 'Non-authoritative information.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 203 Non-Authoritative Information"
+	},
+	"res.status(204)": {
+		"prefix": "res204",
+		"body": [
+			"res.status(204).json({ success: true, message: 'No content.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 204 No Content"
+	},
+	"res.status(205)": {
+		"prefix": "res205",
+		"body": [
+			"res.status(205).json({ success: true, message: 'Reset content.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 205 Reset Content"
+	},
+	"res.status(206)": {
+		"prefix": "res206",
+		"body": [
+			"res.status(206).json({ success: true, message: 'Partial content.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 206 Partial Content"
+	},
+	"res.status(207)": {
+		"prefix": "res207",
+		"body": [
+			"res.status(207).json({ success: true, message: 'Multi-status.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 207 Multi-Status"
+	},
+	"res.status(208)": {
+		"prefix": "res208",
+		"body": [
+			"res.status(208).json({ success: true, message: 'Already reported.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 208 Already Reported"
+	},
+	"res.status(226)": {
+		"prefix": "res226",
+		"body": [
+			"res.status(226).json({ success: true, message: 'IM used.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 226 IM Used"
+	},
+	"res.status(300)": {
+		"prefix": "res300",
+		"body": [
+			"res.status(300).json({ success: false, message: 'Multiple choices.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 300 Multiple Choices"
+	},
+	"res.status(301)": {
+		"prefix": "res301",
+		"body": [
+			"res.status(301).json({ success: false, message: 'Moved permanently.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 301 Moved Permanently"
+	},
+	"res.status(302)": {
+		"prefix": "res302",
+		"body": [
+			"res.status(302).json({ success: false, message: 'Found.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 302 Found"
+	},
+	"res.status(303)": {
+		"prefix": "res303",
+		"body": [
+			"res.status(303).json({ success: false, message: 'See other.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 303 See Other"
+	},
+	"res.status(304)": {
+		"prefix": "res304",
+		"body": [
+			"res.status(304).json({ success: false, message: 'Not modified.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 304 Not Modified"
+	},
+	"res.status(307)": {
+		"prefix": "res307",
+		"body": [
+			"res.status(307).json({ success: false, message: 'Temporary redirect.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 307 Temporary Redirect"
+	},
+	"res.status(308)": {
+		"prefix": "res308",
+		"body": [
+			"res.status(308).json({ success: false, message: 'Permanent redirect.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 308 Permanent Redirect"
+	},
+	"res.status(400)": {
+		"prefix": "res400",
+		"body": [
+			"res.status(400).json({ success: false, message: 'Bad request.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 400 Bad Request"
+	},
+	"res.status(401)": {
+		"prefix": "res401",
+		"body": [
+			"res.status(401).json({ success: false, message: 'Unauthorized.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 401 Unauthorized"
+	},
+	"res.status(402)": {
+		"prefix": "res402",
+		"body": [
+			"res.status(402).json({ success: false, message: 'Payment required.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 402 Payment Required"
+	},
+	"res.status(403)": {
+		"prefix": "res403",
+		"body": [
+			"res.status(403).json({ success: false, message: 'Forbidden.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 403 Forbidden"
+	},
+	"res.status(404)": {
+		"prefix": "res404",
+		"body": [
+			"res.status(404).json({ success: false, message: 'Not found.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 404 Not Found"
+	},
+	"res.status(405)": {
+		"prefix": "res405",
+		"body": [
+			"res.status(405).json({ success: false, message: 'Method not allowed.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 405 Method Not Allowed"
+	},
+	"res.status(406)": {
+		"prefix": "res406",
+		"body": [
+			"res.status(406).json({ success: false, message: 'Not acceptable.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 406 Not Acceptable"
+	},
+	"res.status(407)": {
+		"prefix": "res407",
+		"body": [
+			"res.status(407).json({ success: false, message: 'Proxy authentication required.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 407 Proxy Authentication Required"
+	},
+	"res.status(408)": {
+		"prefix": "res408",
+		"body": [
+			"res.status(408).json({ success: false, message: 'Request timeout.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 408 Request Timeout"
+	},
+	"res.status(409)": {
+		"prefix": "res409",
+		"body": [
+			"res.status(409).json({ success: false, message: 'Conflict.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 409 Conflict"
+	},
+	"res.status(410)": {
+		"prefix": "res410",
+		"body": [
+			"res.status(410).json({ success: false, message: 'Gone.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 410 Gone"
+	},
+	"res.status(411)": {
+		"prefix": "res411",
+		"body": [
+			"res.status(411).json({ success: false, message: 'Length required.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 411 Length Required"
+	},
+	"res.status(412)": {
+		"prefix": "res412",
+		"body": [
+			"res.status(412).json({ success: false, message: 'Precondition failed.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 412 Precondition Failed"
+	},
+	"res.status(413)": {
+		"prefix": "res413",
+		"body": [
+			"res.status(413).json({ success: false, message: 'Content too large.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 413 Content Too Large"
+	},
+	"res.status(414)": {
+		"prefix": "res414",
+		"body": [
+			"res.status(414).json({ success: false, message: 'URI too long.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 414 URI Too Long"
+	},
+	"res.status(415)": {
+		"prefix": "res415",
+		"body": [
+			"res.status(415).json({ success: false, message: 'Unsupported media type.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 415 Unsupported Media Type"
+	},
+	"res.status(416)": {
+		"prefix": "res416",
+		"body": [
+			"res.status(416).json({ success: false, message: 'Range not satisfiable.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 416 Range Not Satisfiable"
+	},
+	"res.status(417)": {
+		"prefix": "res417",
+		"body": [
+			"res.status(417).json({ success: false, message: 'Expectation failed.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 417 Expectation Failed"
+	},
+	"res.status(418)": {
+		"prefix": "res418",
+		"body": [
+			"res.status(418).json({ success: false, message: 'I\\'m a teapot.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 418 I'm a Teapot"
+	},
+	"res.status(421)": {
+		"prefix": "res421",
+		"body": [
+			"res.status(421).json({ success: false, message: 'Misdirected request.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 421 Misdirected Request"
+	},
+	"res.status(422)": {
+		"prefix": "res422",
+		"body": [
+			"res.status(422).json({ success: false, message: 'Unprocessable content.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 422 Unprocessable Content"
+	},
+	"res.status(423)": {
+		"prefix": "res423",
+		"body": [
+			"res.status(423).json({ success: false, message: 'Locked.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 423 Locked"
+	},
+	"res.status(424)": {
+		"prefix": "res424",
+		"body": [
+			"res.status(424).json({ success: false, message: 'Failed dependency.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 424 Failed Dependency"
+	},
+	"res.status(425)": {
+		"prefix": "res425",
+		"body": [
+			"res.status(425).json({ success: false, message: 'Too early.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 425 Too Early"
+	},
+	"res.status(426)": {
+		"prefix": "res426",
+		"body": [
+			"res.status(426).json({ success: false, message: 'Upgrade required.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 426 Upgrade Required"
+	},
+	"res.status(428)": {
+		"prefix": "res428",
+		"body": [
+			"res.status(428).json({ success: false, message: 'Precondition required.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 428 Precondition Required"
+	},
+	"res.status(429)": {
+		"prefix": "res429",
+		"body": [
+			"res.status(429).json({ success: false, message: 'Too many requests.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 429 Too Many Requests"
+	},
+	"res.status(431)": {
+		"prefix": "res431",
+		"body": [
+			"res.status(431).json({ success: false, message: 'Request header fields too large.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 431 Request Header Fields Too Large"
+	},
+	"res.status(451)": {
+		"prefix": "res451",
+		"body": [
+			"res.status(451).json({ success: false, message: 'Unavailable for legal reasons.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 451 Unavailable for Legal Reasons"
+	},
+	"res.status(500)": {
+		"prefix": "res500",
+		"body": [
+			"res.status(500).json({ success: false, message: 'Internal server error.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 500 Internal Server Error"
+	},
+	"res.status(501)": {
+		"prefix": "res501",
+		"body": [
+			"res.status(501).json({ success: false, message: 'Not implemented.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 501 Not Implemented"
+	},
+	"res.status(502)": {
+		"prefix": "res502",
+		"body": [
+			"res.status(502).json({ success: false, message: 'Bad gateway.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 502 Bad Gateway"
+	},
+	"res.status(503)": {
+		"prefix": "res503",
+		"body": [
+			"res.status(503).json({ success: false, message: 'Service unavailable.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 503 Service Unavailable"
+	},
+	"res.status(504)": {
+		"prefix": "res504",
+		"body": [
+			"res.status(504).json({ success: false, message: 'Gateway timeout.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 504 Gateway Timeout"
+	},
+	"res.status(505)": {
+		"prefix": "res505",
+		"body": [
+			"res.status(505).json({ success: false, message: 'HTTP version not supported.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 505 HTTP Version Not Supported"
+	},
+	"res.status(506)": {
+		"prefix": "res506",
+		"body": [
+			"res.status(506).json({ success: false, message: 'Variant also negotiates.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 506 Variant Also Negotiates"
+	},
+	"res.status(507)": {
+		"prefix": "res507",
+		"body": [
+			"res.status(507).json({ success: false, message: 'Insufficient storage.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 507 Insufficient Storage"
+	},
+	"res.status(508)": {
+		"prefix": "res508",
+		"body": [
+			"res.status(508).json({ success: false, message: 'Loop detected.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 508 Loop Detected"
+	},
+	"res.status(510)": {
+		"prefix": "res510",
+		"body": [
+			"res.status(510).json({ success: false, message: 'Not extended.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 510 Not Extended"
+	},
+	"res.status(511)": {
+		"prefix": "res511",
+		"body": [
+			"res.status(511).json({ success: false, message: 'Network authentication required.', description: '' });",
+			"return;"
+		],
+		"description": "HTTP 511 Network Authentication Required"
+	},
+	"controller": {
+		"prefix": "efce",
+		"body": [
+			"// ------------------------------------------------------------------------------------------",
+			"",
+			"export const $TM_FILENAME_BASE = asyncHandler(",
+			"\tasync (req: Request, res: Response): Promise<void> => {}",
+			");",
+			"",
+			"// ------------------------------------------------------------------------------------------"
+		],
+		"description": "Express controller with error handling"
+	}
+}
